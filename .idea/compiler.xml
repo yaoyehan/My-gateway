@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="backend-http-server" />
+        <module name="gateway-register-center-nacos-impl" />
+        <module name="gateway-client" />
+        <module name="gateway-register-center" />
+        <module name="gateway-common" />
+        <module name="backend-dubbo-server" />
+        <module name="gateway-register-center-api" />
+        <module name="gateway-config-center" />
+        <module name="gateway-core" />
+        <module name="gateway-config-cneter-api" />
+        <module name="gateway-config-center-nacos-impl" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
