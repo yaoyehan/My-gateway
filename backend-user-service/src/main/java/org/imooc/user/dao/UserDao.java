@@ -1,6 +1,6 @@
-package org.imooc.user.dao;
+package org.yyh.user.dao;
 
-import org.imooc.user.model.User;
+import org.yyh.user.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

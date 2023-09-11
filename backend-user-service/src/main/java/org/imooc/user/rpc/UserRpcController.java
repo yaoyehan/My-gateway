@@ -1,7 +1,7 @@
-package org.imooc.user.rpc;
+package org.yyh.user.rpc;
 
-import org.imooc.user.dto.UserInfo;
-import org.imooc.user.service.UserService;
+import org.yyh.user.dto.UserInfo;
+import org.yyh.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

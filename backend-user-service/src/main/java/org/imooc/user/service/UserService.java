@@ -1,7 +1,7 @@
-package org.imooc.user.service;
+package org.yyh.user.service;
 
-import org.imooc.user.dao.UserDao;
-import org.imooc.user.model.User;
+import org.yyh.user.dao.UserDao;
+import org.yyh.user.model.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

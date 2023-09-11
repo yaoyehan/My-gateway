@@ -1,4 +1,4 @@
-package org.imooc.user.dto;
+package org.yyh.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

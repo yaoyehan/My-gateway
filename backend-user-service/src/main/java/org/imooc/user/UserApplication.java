@@ -1,4 +1,4 @@
-package org.imooc.user;
+package org.yyh.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

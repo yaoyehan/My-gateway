@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.imooc.gateway.client.core.autoconfigure.ApiClientAutoConfiguration
+org.yyh.gateway.client.core.autoconfigure.ApiClientAutoConfiguration

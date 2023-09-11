@@ -1,4 +1,4 @@
-package org.imooc.user.model;
+package org.yyh.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,11 +1,11 @@
-package org.imooc.user.controller;
+package org.yyh.user.controller;
 
-import org.imooc.gateway.client.core.ApiInvoker;
-import org.imooc.gateway.client.core.ApiProtocol;
-import org.imooc.gateway.client.core.ApiService;
-import org.imooc.user.dto.UserInfo;
-import org.imooc.user.model.User;
-import org.imooc.user.service.UserService;
+import org.yyh.gateway.client.core.ApiInvoker;
+import org.yyh.gateway.client.core.ApiProtocol;
+import org.yyh.gateway.client.core.ApiService;
+import org.yyh.user.dto.UserInfo;
+import org.yyh.user.model.User;
+import org.yyh.user.service.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.RequiredArgsConstructor;

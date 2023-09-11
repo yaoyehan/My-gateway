@@ -41,9 +41,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.1.7.RELEASE</version>
+                <version>2.1.4.RELEASE</version>
                 <configuration>
-                    <mainClass>org.imooc.backend.http.server.Application</mainClass>
+                    <mainClass>org.yyh.backend.http.server.Application</mainClass>
                     <addResources>true</addResources>
                 </configuration>
             </plugin>

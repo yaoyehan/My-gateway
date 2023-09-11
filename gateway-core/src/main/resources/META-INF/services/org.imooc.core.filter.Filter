@@ -1,3 +1,0 @@
-org.imooc.core.filter.loadbalance.LoadBalanceFilter
-org.imooc.core.filter.router.RouterFilter
-org.imooc.core.filter.user.UserAuthFilter
