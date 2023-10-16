@@ -30,7 +30,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
+//yyh
 @Slf4j
 public class NacosRegisterCenter implements RegisterCenter {
     private String registerAddress;
