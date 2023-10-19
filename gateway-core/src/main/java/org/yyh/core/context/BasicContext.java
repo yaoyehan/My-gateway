@@ -13,7 +13,7 @@ import java.util.function.Consumer;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 核心上下文基础类
- * @USER: WuYang
+ * @USER: yyh
  * @DATE: 2022/12/29 20:14
  */
 public class BasicContext implements IContext{

@@ -17,8 +17,8 @@ import static org.yyh.common.enums.ResponseCode.SERVICE_INSTANCE_NOT_FOUND;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 负载均衡-随机
- * @USER: WuYang
- * @DATE: 2023/3/12 22:13
+ * @USER: yyh
+ * @DATE: 2022/3/12 22:13
  */
 @Slf4j
 public class RandomLoadBalanceRule implements  IGatewayLoadBalanceRule{

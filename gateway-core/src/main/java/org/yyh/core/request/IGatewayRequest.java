@@ -6,7 +6,7 @@ import org.asynchttpclient.cookie.Cookie;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 网关请求类接口
- * @USER: WuYang
+ * @USER: yyh
  * @DATE: 2022/12/29 21:01
  */
 public interface IGatewayRequest {

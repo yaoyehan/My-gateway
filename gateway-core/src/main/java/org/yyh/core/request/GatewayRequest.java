@@ -19,7 +19,7 @@ import java.util.*;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 网关请求类
- * @USER: WuYang
+ * @USER: yyh
  * @DATE: 2022/12/29 21:01
  */
 @Slf4j

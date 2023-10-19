@@ -5,8 +5,8 @@ import java.lang.annotation.*;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 过滤器注解类
- * @USER: WuYang
- * @DATE: 2023/3/11 22:42
+ * @USER: yyh
+ * @DATE: 2022/3/11 22:42
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

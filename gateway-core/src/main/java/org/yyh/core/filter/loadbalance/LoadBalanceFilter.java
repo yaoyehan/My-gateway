@@ -21,8 +21,8 @@ import static org.yyh.common.enums.ResponseCode.SERVICE_INSTANCE_NOT_FOUND;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 负载均衡过滤器
- * @USER: WuYang
- * @DATE: 2023/3/12 22:02
+ * @USER: yyh
+ * @DATE: 2022/3/12 22:02
  */
 @Slf4j
 @FilterAspect(id=LOAD_BALANCE_FILTER_ID,

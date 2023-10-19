@@ -12,8 +12,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 过滤器工厂实现类
- * @USER: WuYang
- * @DATE: 2023/3/12 20:05
+ * @USER: yyh
+ * @DATE: 2022/3/12 20:05
  */
 @Slf4j
 public class GatewayFilterChainFactory  implements FilterFactory{

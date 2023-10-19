@@ -11,7 +11,7 @@ import org.yyh.core.response.GatewayResponse;
 /**
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 网关核心上下文类
- * @USER: WuYang
+ * @USER: yyh
  * @DATE: 2022/12/29 20:59
  */
 public class GatewayContext extends BasicContext{
