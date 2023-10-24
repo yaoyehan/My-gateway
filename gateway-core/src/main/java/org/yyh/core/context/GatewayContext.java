@@ -1,12 +1,17 @@
 package org.yyh.core.context;
 
+import io.micrometer.core.instrument.Timer;
 import io.netty.channel.ChannelHandlerContext;
 
 import io.netty.util.ReferenceCountUtil;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 import org.yyh.common.config.Rule;
 import org.yyh.common.utils.AssertUtil;
 import org.yyh.core.request.GatewayRequest;
 import org.yyh.core.response.GatewayResponse;
+import org.yyh.core.context.BasicContext;
 
 /**
  * @PROJECT_NAME: api-gateway
@@ -14,13 +19,21 @@ import org.yyh.core.response.GatewayResponse;
  * @USER: yyh
  * @DATE: 2022/12/29 20:59
  */
-public class GatewayContext extends BasicContext{
+public class GatewayContext extends BasicContext {
 
     private GatewayRequest request;
 
     private GatewayResponse response;
 
     private Rule rule;
+
+    @Setter
+    @Getter
+    private boolean gray;
+
+    @Setter
+    @Getter
+    private Timer.Sample timerSample;
 
     /**
      * 构造函数
@@ -38,20 +51,20 @@ public class GatewayContext extends BasicContext{
 
 
     public static class Builder{
-       private  String protocol;
-       private ChannelHandlerContext nettyCtx;
-       private boolean keepAlive;
-       private  GatewayRequest request;
-       private Rule rule;
+        private  String protocol;
+        private ChannelHandlerContext nettyCtx;
+        private boolean keepAlive;
+        private  GatewayRequest request;
+        private Rule rule;
 
-       private Builder(){
+        private Builder(){
 
-       }
+        }
 
-       public Builder setProtocol(String protocol){
-           this.protocol = protocol;
-           return this;
-       }
+        public Builder setProtocol(String protocol){
+            this.protocol = protocol;
+            return this;
+        }
 
         public Builder setNettyCtx(ChannelHandlerContext nettyCtx){
             this.nettyCtx = nettyCtx;
@@ -74,7 +87,7 @@ public class GatewayContext extends BasicContext{
         }
 
         public GatewayContext build(){
-           AssertUtil.notNull(protocol,"protocol 不能为空");
+            AssertUtil.notNull(protocol,"protocol 不能为空");
 
             AssertUtil.notNull(nettyCtx,"nettyCtx 不能为空");
 

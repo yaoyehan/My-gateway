@@ -5,6 +5,22 @@ package org.yyh.common.constants;
  */
 public interface FilterConst {
 
+    String MONITOR_FILTER_ID = "monitor_filter";
+    String MONITOR_FILTER_NAME = "monitor_filter";
+    int MONITOR_FILTER_ORDER = -1;
+
+    String MONITOR_END_FILTER_ID = "monitor_end_filter";
+    String MONITOR_END_FILTER_NAME = "monitor_end_filter";
+    int MONITOR_END_FILTER_ORDER = Integer.MAX_VALUE;
+
+    String GRAY_FILTER_ID = "gray_filter";
+    String GRAY_FILTER_NAME = "gray_filter";
+    int GRAY_FILTER_ORDER = 0;
+
+    String MOCK_FILTER_ID = "mock_filter";
+    String MOCK_FILTER_NAME = "mock_filter";
+    int MOCK_FILTER_ORDER = 0;
+
     String USER_AUTH_FILTER_ID = "user_auth_filter";
     String USER_AUTH_FILTER_NAME = "user_auth_filter";
     int USER_AUTH_FILTER_ORDER = 1;

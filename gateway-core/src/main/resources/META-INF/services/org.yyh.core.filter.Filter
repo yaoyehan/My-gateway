@@ -1,3 +1,7 @@
 org.yyh.core.filter.loadbalance.LoadBalanceFilter
 org.yyh.core.filter.router.RouterFilter
 org.yyh.core.filter.user.UserAuthFilter
+org.yyh.core.filter.gray.GrayFilter
+org.yyh.core.filter.monitor.MonitorFilter
+org.yyh.core.filter.monitor.MonitorEndFilter
+org.yyh.core.filter.mock.MockFilter

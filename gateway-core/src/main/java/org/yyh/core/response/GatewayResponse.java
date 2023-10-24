@@ -10,7 +10,7 @@ import org.yyh.common.utils.JSONUtil;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION:
  * @USER: yyh
- * @DATE: 2022/12/29 21:01
+ * @DATE: 2023/12/29 21:01
  */
 @Data
 public class GatewayResponse {

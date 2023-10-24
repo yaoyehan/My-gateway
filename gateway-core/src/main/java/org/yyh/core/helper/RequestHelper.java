@@ -68,7 +68,6 @@ public class RequestHelper {
 		String clientIp = getClientIp(ctx, fullHttpRequest);
 		String contentType = HttpUtil.getMimeType(fullHttpRequest) == null ? null : HttpUtil.getMimeType(fullHttpRequest).toString();
 		Charset charset = HttpUtil.getCharset(fullHttpRequest, StandardCharsets.UTF_8);
-
 		GatewayRequest gatewayRequest = new GatewayRequest(uniqueId,
 				charset,
 				clientIp,
@@ -78,7 +77,6 @@ public class RequestHelper {
 				contentType,
 				headers,
 				fullHttpRequest);
-		
 		return gatewayRequest;
 	}
 	

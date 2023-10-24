@@ -10,7 +10,7 @@ import java.util.Set;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 核心规则类
  * @USER: yyh
- * @DATE: 2022/12/31 19:00
+ * @DATE: 2023/12/31 19:00
  */
 public class Rule implements Comparable<Rule>, Serializable {
 

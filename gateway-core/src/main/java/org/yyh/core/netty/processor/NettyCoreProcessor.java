@@ -25,7 +25,6 @@ public class NettyCoreProcessor implements NettyProcessor {
     public void process(HttpRequestWrapper wrapper) {
         FullHttpRequest request = wrapper.getRequest();
         ChannelHandlerContext ctx = wrapper.getCtx();
-
         try {
             GatewayContext gatewayContext = RequestHelper.doContext(request, ctx);
             //执行过滤器逻辑

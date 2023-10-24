@@ -11,7 +11,7 @@ import java.util.List;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 过滤器链条类
  * @USER: yyh
- * @DATE: 2022/3/12 19:59
+ * @DATE: 2023/3/12 19:59
  */
 @Slf4j
 public class GatewayFilterChain {

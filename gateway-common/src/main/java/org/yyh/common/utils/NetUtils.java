@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  * @PROJECT_NAME: api-gateway-prepare
  * @DESCRIPTION: 网络工具类
  * @USER: yyh
- * @DATE: 2022/12/19 23:49
+ * @DATE: 2023/12/19 23:49
  */
 public class NetUtils {
 

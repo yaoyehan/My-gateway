@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 缓存管理类
  * @USER: yyh
- * @DATE: 2022/2/27 23:19
+ * @DATE: 2023/2/27 23:19
  */
 public class GatewayCacheManager {
 

@@ -24,7 +24,7 @@ import static org.yyh.common.constants.FilterConst.*;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION:路由过滤器
  * @USER: yyh
- * @DATE: 2022/3/18 21:40
+ * @DATE: 2023/3/18 21:40
  */
 @Slf4j
 @FilterAspect(id=ROUTER_FILTER_ID,

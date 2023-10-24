@@ -1,10 +1,13 @@
 package org.yyh.core;
 
+import com.lmax.disruptor.*;
 import lombok.Data;
 
 @Data
 public class Config {
     private int port = 8888;
+
+    private int prometheusPort = 18000;
 
     private String applicationName = "api-gateway";
 
@@ -42,6 +45,29 @@ public class Config {
 
     //	客户端空闲连接超时时间, 默认60秒
     private int httpPooledConnectionIdleTimeout = 60 * 1000;
+
+    private String bufferType = "parallel";
+
+    private int bufferSize = 1024 * 16;
+
+    private int processThread = Runtime.getRuntime().availableProcessors();
+
+    private String waitStrategy ="blocking";
+
+    public WaitStrategy getWaitStrategy(){
+        switch (waitStrategy){
+            case "blocking":
+                return  new BlockingWaitStrategy();
+            case "busySpin":
+                return  new BusySpinWaitStrategy();
+            case "yielding":
+                return  new YieldingWaitStrategy();
+            case "sleeping":
+                return  new SleepingWaitStrategy();
+            default:
+                return new BlockingWaitStrategy();
+        }
+    }
 
     //扩展.......
 }

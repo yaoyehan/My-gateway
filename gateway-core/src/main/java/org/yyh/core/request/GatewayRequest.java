@@ -20,7 +20,7 @@ import java.util.*;
  * @PROJECT_NAME: api-gateway
  * @DESCRIPTION: 网关请求类
  * @USER: yyh
- * @DATE: 2022/12/29 21:01
+ * @DATE: 2023/12/29 21:01
  */
 @Slf4j
 public class GatewayRequest implements IGatewayRequest{
